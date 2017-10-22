@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="pt-BR" >
+<head>
+  <base href="/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- LIBS-->
+<script type="application/javascript" src="res/js/lib/angular.min.js"></script> 
+<script type="application/javascript"src="res/js/lib/angular-route.min.js"></script> 
+<script type="application/javascript"src="res/js/lib/angular-resource.min.js"></script> 
+<!-- app-->
+<script type="application/javascript"src="app/app.module.js"></script> 
+<script type="application/javascript"src="app/app.controller.js"></script> 
+<script type="application/javascript"src="app/app.factory.js"></script> 
+
+<link rel="stylesheet" href="res/css/bootstrap.min.css">
+  <link rel="stylesheet" href="res/css/style.css">
+  <title>Document</title>
+</head>
+<body ng-controller="MainController">
+  <div class="conteiner" ></div>
+    <h1>Express usando variavel <%= title %></h1>
+    <h1>{{teste}}</h1>
+</body>
+</html>
